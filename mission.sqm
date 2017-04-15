@@ -5,12 +5,14 @@ class Mission
 	{
 		"A3_Characters_F",
 		"a3_map_vr",
-		"A3_Air_F_Heli_Light_01"
+		"A3_Air_F_Heli_Light_01",
+		"A3_Armor_F_Beta_APC_Tracked_01"
 	};
 	addOnsAuto[]=
 	{
 		"A3_Characters_F",
 		"A3_Air_F_Heli_Light_01",
+		"A3_Armor_F_Beta_APC_Tracked_01",
 		"a3_map_vr"
 	};
 	randomSeed=14552163;
@@ -55,7 +57,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			position[]={4000.1829,5,4016.7671};
@@ -64,6 +66,15 @@ class Mission
 			vehicle="B_Heli_Light_01_F";
 			skill=0.60000002;
 			text="butterfly";
+		};
+		class Item1
+		{
+			position[]={3983.8577,5,4016.7852};
+			id=2;
+			side="EMPTY";
+			vehicle="B_APC_Tracked_01_rcws_F";
+			skill=0.60000002;
+			text="gator";
 		};
 	};
 };
