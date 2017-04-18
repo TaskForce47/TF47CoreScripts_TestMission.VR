@@ -5,14 +5,14 @@ class Mission
 	{
 		"A3_Characters_F",
 		"a3_map_vr",
-		"A3_Air_F_Heli_Light_01",
-		"A3_Armor_F_Beta_APC_Tracked_01"
+		"A3_Armor_F_Beta_APC_Tracked_01",
+		"A3_Air_F_Heli_Heli_Transport_03"
 	};
 	addOnsAuto[]=
 	{
 		"A3_Characters_F",
-		"A3_Air_F_Heli_Light_01",
 		"A3_Armor_F_Beta_APC_Tracked_01",
+		"A3_Air_F_Heli_Heli_Transport_03",
 		"a3_map_vr"
 	};
 	randomSeed=14552163;
@@ -44,13 +44,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3999.988,5,3999.9829};
+					position[]={3994.5037,5,3994.6582};
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
+					text="soldier";
 				};
 			};
 		};
@@ -63,7 +64,7 @@ class Mission
 			position[]={4000.1829,5,4016.7671};
 			id=1;
 			side="EMPTY";
-			vehicle="B_Heli_Light_01_F";
+			vehicle="B_APC_Tracked_01_rcws_F";
 			skill=0.60000002;
 			text="butterfly";
 		};
@@ -72,7 +73,7 @@ class Mission
 			position[]={3983.8577,5,4016.7852};
 			id=2;
 			side="EMPTY";
-			vehicle="B_APC_Tracked_01_rcws_F";
+			vehicle="B_Heli_Transport_03_F";
 			skill=0.60000002;
 			text="gator";
 		};
