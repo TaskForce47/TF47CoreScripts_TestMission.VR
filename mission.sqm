@@ -6,13 +6,17 @@ class Mission
 		"A3_Characters_F",
 		"a3_map_vr",
 		"A3_Armor_F_Beta_APC_Tracked_01",
-		"A3_Air_F_Heli_Heli_Transport_03"
+		"A3_Air_F_Heli_Heli_Transport_03",
+		"A3_Modules_F",
+		"A3_Soft_F_MRAP_01"
 	};
 	addOnsAuto[]=
 	{
 		"A3_Characters_F",
+		"A3_Modules_F",
 		"A3_Armor_F_Beta_APC_Tracked_01",
 		"A3_Air_F_Heli_Heli_Transport_03",
+		"A3_Soft_F_MRAP_01",
 		"a3_map_vr"
 	};
 	randomSeed=14552163;
@@ -35,7 +39,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			side="WEST";
@@ -55,14 +59,32 @@ class Mission
 				};
 			};
 		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3992.5156,5,4045.6797};
+					id=1;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="tf47_core_coreScriptLogic";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			position[]={4000.1829,5,4016.7671};
-			id=1;
+			id=2;
 			side="EMPTY";
 			vehicle="B_APC_Tracked_01_rcws_F";
 			skill=0.60000002;
@@ -71,11 +93,20 @@ class Mission
 		class Item1
 		{
 			position[]={3983.8577,5,4016.7852};
-			id=2;
+			id=3;
 			side="EMPTY";
 			vehicle="B_Heli_Transport_03_F";
 			skill=0.60000002;
 			text="gator";
+		};
+		class Item2
+		{
+			position[]={4008.0981,5,4015.4912};
+			id=4;
+			side="EMPTY";
+			vehicle="B_MRAP_01_F";
+			leader=1;
+			skill=0.60000002;
 		};
 	};
 };
