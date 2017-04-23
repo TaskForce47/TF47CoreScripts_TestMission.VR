@@ -8,7 +8,8 @@ class Mission
 		"A3_Armor_F_Beta_APC_Tracked_01",
 		"A3_Air_F_Heli_Heli_Transport_03",
 		"A3_Modules_F",
-		"A3_Soft_F_MRAP_01"
+		"A3_Soft_F_MRAP_01",
+		"A3_Soft_F_Gamma_Truck_01"
 	};
 	addOnsAuto[]=
 	{
@@ -17,6 +18,7 @@ class Mission
 		"A3_Armor_F_Beta_APC_Tracked_01",
 		"A3_Air_F_Heli_Heli_Transport_03",
 		"A3_Soft_F_MRAP_01",
+		"A3_Soft_F_Gamma_Truck_01",
 		"a3_map_vr"
 	};
 	randomSeed=14552163;
@@ -80,7 +82,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=3;
+		items=4;
 		class Item0
 		{
 			position[]={4000.1829,5,4016.7671};
@@ -106,6 +108,14 @@ class Mission
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
 			leader=1;
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={4004.062,5,3995.0415};
+			id=5;
+			side="EMPTY";
+			vehicle="B_Truck_01_medical_F";
 			skill=0.60000002;
 		};
 	};
