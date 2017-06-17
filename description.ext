@@ -11,3 +11,4 @@ class CfgDebriefing
 {
     #include "TF47CoreScripts\CfgDebriefing.hpp"
 };
+enableDebugConsole = 2;
