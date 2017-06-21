@@ -1,6 +1,4 @@
 #include "TF47CoreScripts\configMacros.hpp"
-#include "TF47CoreScripts\configMacros.hpp"
-
 
 // nicht anfassen/todo
 WHITELIST(ON)
