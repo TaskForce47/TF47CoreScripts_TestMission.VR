@@ -35,7 +35,7 @@ TICKETSYSTEM_SOFTCAP(100)
 // Hardcap
 TICKETSYSTEM_HARDCAP(150)
 
-// Nicht anfanssen
+// Nicht anfassen
 TICKETSYSTEM_TRACKING(ON)
 
 // Marker Farbe Standard
