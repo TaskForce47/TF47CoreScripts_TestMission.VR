@@ -10,7 +10,7 @@ WHITELIST_SYSTEM(0)
 
 // ein slot (SLOTNAME) mit einer Whitelist (CCT) Beschränkung versehen
 REGISTER_SLOT_BEGIN
-REGISTER_SLOT("slot1", CCT)
+REGISTER_SLOT("slot3", CCT)
 REGISTER_SLOT("slot2", CCT)
 REGISTER_SLOT_END
 
