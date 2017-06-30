@@ -7,6 +7,7 @@ WHITELIST_SYSTEM(0)
 // mögliche whitelists sind AIR, TANK, CCT
 // ein fahrzeug zu einer whitelist (AIR) hinzufügen erlaubte slots
 [gator, AIR, ["slot1", "slot2"]] call tf47_core_whitelist_fnc_registerWhitelist;
+[butterfly, TANK, ["slot1", "slot2"]] call tf47_core_whitelist_fnc_registerWhitelist;
 
 // ein slot (SLOTNAME) mit einer Whitelist (CCT) Beschränkung versehen
 REGISTER_SLOT_BEGIN
